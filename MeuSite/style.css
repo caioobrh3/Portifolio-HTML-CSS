@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+
+}
+
+.cabecalho-logo{
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.1px solid white ;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-Titulo {
+    color: white;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+.conteudo-principal-escrito-texto {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.conteudo-principal-botao {
+    background-color: #946ddc;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.conteudo-principal-botao:hover {
+    background-color: rgba(154, 145, 198, 0.53)
+}
+
+.imagem-principal-img{
+    height: 370px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 70px;
+    color: white;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid whitesmoke;
+    padding-top: 48px;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid whitesmoke;
+}
+
+.img-rodape {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
